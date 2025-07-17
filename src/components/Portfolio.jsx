@@ -21,7 +21,7 @@ const Portfolio = () => {
         />
         <Card
           title="Portfolio"
-          text="You already looking at this"
+          text="You'r already looking at this"
           link="https://github.com/SAGAR-RAJ1/Portfolio"
           img="/portfolio.png"
         />
