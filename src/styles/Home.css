@@ -1,0 +1,49 @@
+.firstsection {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+    height: 70vh;
+    
+}
+
+.leftsection{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    width: 40%;
+  
+}
+.rightsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.rightsection img{
+    margin-top: -50px;
+
+    width: 80%;
+
+}
+.right a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.right ul li a:hover{
+    color: rgb(163, 84, 237);
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-underline-offset: 30px;
+}
+.purple ,#element{
+    color: rgb(157, 70, 239);
+}
+
+@media (max-width: 650px){
+    .leftsection{
+        font-size: 2rem;
+    }
+}

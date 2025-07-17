@@ -1,0 +1,31 @@
+.third{
+
+    width:80vw;
+    height: auto;
+    margin: auto;
+
+}
+.third h1,h3{
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;  
+    margin-top: 1.25rem;
+}
+
+/*! cards */
+.card{
+    background: #151D28;
+    color: grey;
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 300px;
+   
+   
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
