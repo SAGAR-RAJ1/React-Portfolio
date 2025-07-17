@@ -1,7 +1,7 @@
 const Card = (props) => {
     return (
         <div className="card" style={{ width: '18rem' }}>
-            <img src="../public/dev.webp" className="card-img-top" alt="..." />
+            <img src={props.img} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title" style={{ color: '#CBFC8F' }}>{props.title}</h5>
                 <p className="card-text">{props.text}</p>
