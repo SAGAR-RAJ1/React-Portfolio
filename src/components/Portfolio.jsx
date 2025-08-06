@@ -50,6 +50,12 @@ const Portfolio = () => {
           link="https://github.com/SAGAR-RAJ1/ai-notes-app"
           img="/ai.png"
         />
+        <Card
+          title="Zerodha - Clone"
+          text="Money Power"
+          link="https://github.com/SAGAR-RAJ1/Zerodha-P2"
+          img="/Zerodha.png"
+        />
       </div>
     </section>
   );
